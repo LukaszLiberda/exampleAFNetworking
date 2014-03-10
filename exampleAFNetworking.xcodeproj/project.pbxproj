@@ -44,6 +44,7 @@
 		8BA112AF18CD112500861502 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA112AE18CD112500861502 /* SystemConfiguration.framework */; };
 		8BA112B218CD137300861502 /* EXFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA112B118CD137300861502 /* EXFirstViewController.m */; };
 		8BA112B518CD139200861502 /* EXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA112B418CD139200861502 /* EXSecondViewController.m */; };
+		8BA112C018CE202900861502 /* EXNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA112BF18CE202900861502 /* EXNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		8BA112B118CD137300861502 /* EXFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXFirstViewController.m; sourceTree = "<group>"; };
 		8BA112B318CD139200861502 /* EXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXSecondViewController.h; sourceTree = "<group>"; };
 		8BA112B418CD139200861502 /* EXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXSecondViewController.m; sourceTree = "<group>"; };
+		8BA112BE18CE202900861502 /* EXNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXNetworkManager.h; sourceTree = "<group>"; };
+		8BA112BF18CE202900861502 /* EXNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +249,8 @@
 			children = (
 				8BA1126C18CD0DAF00861502 /* UIView+Utils.h */,
 				8BA1126D18CD0DAF00861502 /* UIView+Utils.m */,
+				8BA112BE18CE202900861502 /* EXNetworkManager.h */,
+				8BA112BF18CE202900861502 /* EXNetworkManager.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -440,6 +445,7 @@
 				8BA112B218CD137300861502 /* EXFirstViewController.m in Sources */,
 				8BA112A518CD0E9900861502 /* UIProgressView+AFNetworking.m in Sources */,
 				8BA112A318CD0E9900861502 /* UIButton+AFNetworking.m in Sources */,
+				8BA112C018CE202900861502 /* EXNetworkManager.m in Sources */,
 				8BA112A218CD0E9900861502 /* UIAlertView+AFNetworking.m in Sources */,
 				8BA1129B18CD0E9900861502 /* AFSecurityPolicy.m in Sources */,
 				8BA1123D18CCE8A700861502 /* main.m in Sources */,
